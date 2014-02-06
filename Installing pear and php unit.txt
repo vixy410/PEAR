@@ -1,0 +1,13 @@
+1. http://pear.php.net/go-pear.phar
+2. php.exe -d phar.require_hash=0 go-pear.phar
+3. pear install -o Net_SMTP
+4. pear install mail Mail_mime
+5. Uncomment php_openssl.dll
+
+
+
+Installing php unit
+1. pear channel-discover pear.phpunit.de
+2. pear channel-discover pear.symfony-project.com
+3. pear install phpunit/PHPUnit
+4. or  pear install -f  phpunit/PHPUnit
